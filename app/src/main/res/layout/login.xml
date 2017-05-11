@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/loginETEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -14,7 +14,7 @@
         android:hint="E-mail"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/loginETPassword"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginBtnLogin"
         style="@style/btnHomeStyle"
         android:text="Login" />
 </LinearLayout>
