@@ -14,7 +14,7 @@
             android:orientation="vertical" >
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/ETregfirst"
                 style="@style/editTextMarginsstyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
                 android:hint="First Name"/>
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/ETreglast"
                 style="@style/editTextMarginsstyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
                 />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/ETregmail"
                 style="@style/editTextMarginsstyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
                 android:hint="e-mail" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/ETregPass"
                 style="@style/editTextMarginsstyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                 android:hint="password" />
 
             <EditText
-                android:id="@+id/editText7"
+                android:id="@+id/ETregRetypePass"
                 style="@style/editTextMarginsstyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 android:hint="re-type password" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnregRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
