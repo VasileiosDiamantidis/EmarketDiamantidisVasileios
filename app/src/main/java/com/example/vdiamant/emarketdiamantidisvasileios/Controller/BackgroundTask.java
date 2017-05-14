@@ -117,12 +117,15 @@ public class BackgroundTask extends AsyncTask<String,Void,String>{
             if(result.equals("Registration Success..."))
             {
                 Toast.makeText(ctx, result, Toast.LENGTH_LONG).show();
+
             }
             else
             {
-                alertDialog.setMessage(result);
-                alertDialog.show();
+                //alertDialog.setMessage(result);
+                //alertDialog.show();
             }
         }
+
+
 
 }
